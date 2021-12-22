@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DevTools Protocol Network test",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "debugger.js"
+  },
+  "action": {},
+  "permissions": ["debugger"],
+  "commands": {
+    "reloadExtension": {
+      "description": "Used to quickly reload extension during development"
+    }
+  }
+}

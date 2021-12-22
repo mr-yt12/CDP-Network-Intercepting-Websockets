@@ -13,7 +13,7 @@ function allEventHandler(debuggeeId, message, params) {
 }
 
 function readSockets(direction, params, debuggeeId) {
-  console.log(direction, params.response.payloadData);
+  console.log(direction, params, params.response.payloadData);
 }
 
 chrome.action.onClicked.addListener(function (tab) {
